@@ -16,6 +16,10 @@ In this project we have backtested two such popular trading strategies that are 
     - The 50 MA line is intersecting above the 200 MA-- `Buy Signal`
     - The 50 MA line is intersecting below the 200 MA-- `Sell Signal`
 
+    The following the tested output using Apple historic stock data which is fetched from yahoo finance.
+
+    ![SMA Strategy](images/sma.png)
+
 `Bollinger Bands` :
 - This a popular strategy-- a volatility indicator which helps traders and investors to see the stock's volatility in isolation, that is 
   how far the prices will deviate from the simple moving average line( usually 20 MA). This helps in getting the standard deviation.
@@ -29,11 +33,19 @@ In this project we have backtested two such popular trading strategies that are 
   - When the price touches the lower band-- the stock may be seen as `Oversold`
   - The bands widen on `increased volatility` of the stock and contracts when there is a `drop` in the volatility. 
 
+  The following the tested output using AMD  historic stock data which is fetched from yahoo finance.
+
+  ![Bollinger-Band Strategy](images/bollingerbands.png)
+
 --> The Project also consists of backtesting the above two strategies `combined` for the following reason :
   - While bollinger bands may indicate the volaitility of the stock in isolation, the indicator itself can give many `false` `buy` and `sell`
   signals.
   - So Combining them will reduce these false signals and with the SMA crossover as discussed above-- it will reduce the number of false 
   entry and exit positions and also reduce the noise.
+
+  The following the tested output using stock's historic stock data which is fetched from yahoo finance.
+
+  ![Combined SMA+Bollinger Strategy](images/combined.png)
 
 
 # Getting started - First steps when you clone the project to run it.
