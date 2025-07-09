@@ -43,7 +43,7 @@ In this project we have backtested two such popular trading strategies that are 
   - So Combining them will reduce these false signals and with the SMA crossover as discussed above-- it will reduce the number of false 
   entry and exit positions and also reduce the noise.
 
-  The following the tested output using stock's historic stock data which is fetched from yahoo finance.
+  The following the tested output using Apple stock's historic stock data which is fetched from yahoo finance.
 
   ![Combined SMA+Bollinger Strategy](images/combined.png)
 
